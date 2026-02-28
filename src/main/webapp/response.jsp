@@ -21,9 +21,9 @@
         <h1> Your age is: <jsp:getProperty name="mybean" property="age"/> </h1>
 
         <c:choose>
-            <c:when test="${clock.hours < 12 && clock.hours > 0}"> Buenos días mi amor </c:when>
-            <c:when test="${clock.hours > 12 && clock.hours < 18}"> Buenos tardes mi amor </c:when>
-            <c:otherwise> Buenos noches mi amor </c:otherwise>
+            <c:when test="${clock.hours < 12 && clock.hours > 0}"> Buenos días </c:when>
+            <c:when test="${clock.hours > 12 && clock.hours < 18}"> Buenos tardes </c:when>
+            <c:otherwise> Buenos noches </c:otherwise>
         </c:choose>
 
 
